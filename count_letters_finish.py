@@ -1,5 +1,5 @@
 def counter(input_string):
-    import string
+    from string import ascii_letters
     alphabet = string.ascii_letters
     count_letters = {}
     count_letters = dict()
